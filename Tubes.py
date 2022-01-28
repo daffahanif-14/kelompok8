@@ -21,14 +21,6 @@ def getNum(x):
             return temp
         else:
             return temp
-    Binary:
-	if temp > 3:
-		alert('Bukan nilai biner')
-		temp = ''
-		input.value = temp
-		return temp
-	else:
-		return temp
 
 def formula(x, y):
     if x == 'Decimal':
